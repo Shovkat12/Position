@@ -1,0 +1,147 @@
+@import url(../css/fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.desktop{
+    background-color: #FAFAFA;
+    display: flex;
+    padding: 80px 165px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-floor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+}
+.title{
+    color: #4D4F62;
+    font-family: "PoppinsExtraLight";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+.text{
+    color: #4D4F62;
+    text-align: center;
+    font-family: "PoppinsSemiBold";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+.description{
+    color: #4D4F62;
+    text-align: center;
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    letter-spacing: 0.104px;
+    opacity: 0.5;
+    margin-top: 16px;
+}
+.second-floor{
+    width: 1110px;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+    column-gap: 30px;
+
+    
+}
+.double-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.card{
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow:  0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    padding-left: 32px;
+    padding-top: 32px;
+    position: relative;
+}
+
+.card1{
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow:  0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    padding-left: 32px;
+    padding-top: 32px;
+    position: relative;
+}
+
+.card:nth-child(1){
+    border-top: #44D3D2 solid 4px;
+}
+.card:last-child{
+    border-top: #549EF2 solid 4px;
+}
+.card1:nth-child(1){
+    border-top: #EA5454 solid 4px;  
+}
+.card1:last-child{
+    border-top: #FCAE4A solid 4px;
+}
+.card>h1{
+    color: #4D4F62;
+    font-family: "PoppinsSemiBold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.card>p{
+    width: 286px;
+    color: #4D4F62;
+    font-family: "PoppinsRegular";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; 
+    letter-spacing: 0.09px;
+    opacity: 0.5;
+}
+.card1>h1{
+    color: #4D4F62;
+    font-family: "PoppinsSemiBold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.card1>p{
+    color: #4D4F62;
+    font-family: "PoppinsRegular";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    opacity: 0.5;
+    width: 286px;
+}
+img{
+    width: 64px;
+    height: 64px;
+    bottom: 32px;
+    right: 32px;
+    position: absolute;    
+}
